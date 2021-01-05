@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e80b7a3dc86d4822a2786bc9242c4f64 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e80b7a3dc86d4822a2786bc9242c4f64" ></div>
+        
+</body>
+<script>    
+    
+            var map_e80b7a3dc86d4822a2786bc9242c4f64 = L.map(
+                "map_e80b7a3dc86d4822a2786bc9242c4f64",
+                {
+                    center: [43.64269861204067, -79.38595014407835],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_e80b7a3dc86d4822a2786bc9242c4f64);
+
+            
+
+        
+    
+            var tile_layer_57d6c24794ff4247ab6057614916c038 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e80b7a3dc86d4822a2786bc9242c4f64);
+        
+    
+            var marker_9b268897760f4195a2490ae13168b391 = L.marker(
+                [43.64269861204067, -79.38595014407835],
+                {}
+            ).addTo(map_e80b7a3dc86d4822a2786bc9242c4f64);
+        
+    
+            var icon_32e90f3262c44fe9b4a8605c9a2bbe2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b268897760f4195a2490ae13168b391.setIcon(icon_32e90f3262c44fe9b4a8605c9a2bbe2d);
+        
+    
+        var popup_61861f07b05a444ba1364a9e76871706 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cbd84054e4e4c5b9600cf4219522670 = $(`<div id="html_5cbd84054e4e4c5b9600cf4219522670" style="width: 100.0%; height: 100.0%;"><a href="https://www.ripleyaquariums.com/canada/" target="_blank">"Ripleys Aquarium"</a></div>`)[0];
+            popup_61861f07b05a444ba1364a9e76871706.setContent(html_5cbd84054e4e4c5b9600cf4219522670);
+        
+
+        marker_9b268897760f4195a2490ae13168b391.bindPopup(popup_61861f07b05a444ba1364a9e76871706)
+        ;
+
+        
+    
+    
+            marker_9b268897760f4195a2490ae13168b391.bindTooltip(
+                `<div>
+                     Ripley's Aquarium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a90ff42bad644a383a889861a3e5cc4 = L.marker(
+                [43.64265328493354, -79.38690442791803],
+                {}
+            ).addTo(map_e80b7a3dc86d4822a2786bc9242c4f64);
+        
+    
+            var icon_583f8e067a874db5bb1c63b2080ca9fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_3a90ff42bad644a383a889861a3e5cc4.setIcon(icon_583f8e067a874db5bb1c63b2080ca9fc);
+        
+    
+        var popup_8bf309559bae443b910996d94051dc79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d43989d544064a9d9c4af0b823044d5d = $(`<div id="html_d43989d544064a9d9c4af0b823044d5d" style="width: 100.0%; height: 100.0%;"><a href="https://www.cntower.ca/en-ca/home.html" target="_blank">"CN Tower"</a></div>`)[0];
+            popup_8bf309559bae443b910996d94051dc79.setContent(html_d43989d544064a9d9c4af0b823044d5d);
+        
+
+        marker_3a90ff42bad644a383a889861a3e5cc4.bindPopup(popup_8bf309559bae443b910996d94051dc79)
+        ;
+
+        
+    
+    
+            marker_3a90ff42bad644a383a889861a3e5cc4.bindTooltip(
+                `<div>
+                     CN Tower
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1986507940384fcdbc414bc3101345ee = L.marker(
+                [43.643538375675675, -79.37913138624386],
+                {}
+            ).addTo(map_e80b7a3dc86d4822a2786bc9242c4f64);
+        
+    
+            var icon_be1abc68d836475094c7043980bf736b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1986507940384fcdbc414bc3101345ee.setIcon(icon_be1abc68d836475094c7043980bf736b);
+        
+    
+        var popup_79047d8b471b45aead682731ca92b084 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b666fc3c29294da3a577a53f8e235dd2 = $(`<div id="html_b666fc3c29294da3a577a53f8e235dd2" style="width: 100.0%; height: 100.0%;"><a href="https://www.scotiabankarena.com/" target="_blank">"Scotiabank Arena"</a></div>`)[0];
+            popup_79047d8b471b45aead682731ca92b084.setContent(html_b666fc3c29294da3a577a53f8e235dd2);
+        
+
+        marker_1986507940384fcdbc414bc3101345ee.bindPopup(popup_79047d8b471b45aead682731ca92b084)
+        ;
+
+        
+    
+    
+            marker_1986507940384fcdbc414bc3101345ee.bindTooltip(
+                `<div>
+                     Scotiabank Arena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c83a53b0d1e4df2afe445e255bd81dd = L.marker(
+                [43.64185358648617, -79.38912529689352],
+                {}
+            ).addTo(map_e80b7a3dc86d4822a2786bc9242c4f64);
+        
+    
+            var icon_cf453defacf8423288a748c22f5f66c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5c83a53b0d1e4df2afe445e255bd81dd.setIcon(icon_cf453defacf8423288a748c22f5f66c7);
+        
+    
+        var popup_10b020b4bb094e6c97ac579dde21700b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abf74594e84c4ecf9463ee222982ed81 = $(`<div id="html_abf74594e84c4ecf9463ee222982ed81" style="width: 100.0%; height: 100.0%;"><a href="https://www.mlb.com/bluejays/ballpark/information" target="_blank">"Rogers Center"</a></div>`)[0];
+            popup_10b020b4bb094e6c97ac579dde21700b.setContent(html_abf74594e84c4ecf9463ee222982ed81);
+        
+
+        marker_5c83a53b0d1e4df2afe445e255bd81dd.bindPopup(popup_10b020b4bb094e6c97ac579dde21700b)
+        ;
+
+        
+    
+    
+            marker_5c83a53b0d1e4df2afe445e255bd81dd.bindTooltip(
+                `<div>
+                     Rogers Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5053bf7cb3084abe9499fb3889c4d040 = L.marker(
+                [43.6283858229396, -79.39622581292689],
+                {}
+            ).addTo(map_e80b7a3dc86d4822a2786bc9242c4f64);
+        
+    
+            var icon_80306605e3c5479ba3f04a08bf9c91c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_5053bf7cb3084abe9499fb3889c4d040.setIcon(icon_80306605e3c5479ba3f04a08bf9c91c9);
+        
+    
+        var popup_353cf00cdc9c4c0cacf6a0f7325fcf3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b25c89ad915b43cd8fb35921e97796c4 = $(`<div id="html_b25c89ad915b43cd8fb35921e97796c4" style="width: 100.0%; height: 100.0%;"><a href="https://www.billybishopairport.com/" target="_blank">"Billy Bishop Airport"</a></div>`)[0];
+            popup_353cf00cdc9c4c0cacf6a0f7325fcf3e.setContent(html_b25c89ad915b43cd8fb35921e97796c4);
+        
+
+        marker_5053bf7cb3084abe9499fb3889c4d040.bindPopup(popup_353cf00cdc9c4c0cacf6a0f7325fcf3e)
+        ;
+
+        
+    
+    
+            marker_5053bf7cb3084abe9499fb3889c4d040.bindTooltip(
+                `<div>
+                     Billy Bishop Airport
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
